@@ -1630,6 +1630,14 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.npm.taobao.org/lowercase-keys/download/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
   integrity sha1-b54wtHCE2XGnyCD/FabFFnt0wm8=
 
+lru-cache@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npm.taobao.org/lru-cache/download/lru-cache-4.1.2.tgz#45234b2e6e2f2b33da125624c4664929a0224c3f"
+  integrity sha1-RSNLLm4vKzPaElYkxGZJKaAiTD8=
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
+
 lru-cache@^4.0.1:
   version "4.1.5"
   resolved "https://registry.npm.taobao.org/lru-cache/download/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -2341,6 +2349,11 @@ shorthash@0.0.2:
   version "0.0.2"
   resolved "https://registry.npm.taobao.org/shorthash/download/shorthash-0.0.2.tgz#59b268eecbde59038b30da202bcfbddeb2c4a4eb"
   integrity sha1-WbJo7sveWQOLMNogK8+93rLEpOs=
+
+shortid@2.2.8:
+  version "2.2.8"
+  resolved "https://registry.npm.taobao.org/shortid/download/shortid-2.2.8.tgz#033b117d6a2e975804f6f0969dbe7d3d0b355131"
+  integrity sha1-AzsRfWoul1gE9vCWnb59PQs1UTE=
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
