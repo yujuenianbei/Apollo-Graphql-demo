@@ -26,7 +26,7 @@ const cache = LRU({ max: 50, maxAge: 1000 * 60 * 60 });
 const resolvers = {
   Query: {
     todos: () => {
-      const todos = [];
+      const todos = [{ id: "11111", type: 666 }];
       cache.forEach((type, id) => todos.push({ type, id }));
       return todos;
     },
